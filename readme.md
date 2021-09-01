@@ -7,6 +7,9 @@ This genome sequence assembly has been deposited in GenBank here: https://www.nc
 This work is described in the following manuscript:
 
 Christine Sambles, Marta Suarez-Fernandez, Federico Lopez-Moya, Luis Vicente Lopez-Llorca, David J. Studholme.
-Chitosan induces differential transcript usage of chitosanase 3 encoding gene (csn3) in the biocontrol fungus *Pochonia chlamydosporia* 123. 
+Chitosan induces differential transcript usage of chitosanase 3 encoding gene (csn3) in the biocontrol fungus *Pochonia chlamydosporia* 123. Submitted.
+
+# Genome assembly of *Pochonia chlamydosporia* strain 123
+
 
 
