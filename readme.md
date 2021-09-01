@@ -10,6 +10,8 @@ Christine Sambles, Marta Suarez-Fernandez, Federico Lopez-Moya, Luis Vicente Lop
 Chitosan induces differential transcript usage of chitosanase 3 encoding gene (csn3) in the biocontrol fungus *Pochonia chlamydosporia* 123. Submitted.
 
 # Genome assembly of *Pochonia chlamydosporia* strain 123
+We previously generated the version-2 draft genome assembly based only on short (Illumina sequence reads) as described in [this manuscript](10.1016/j.fgb.2014.02.002) and [this manuscript](https://doi.org/10.1111/1462-2920.15408).
+
 
 
 
