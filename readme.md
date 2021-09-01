@@ -51,6 +51,47 @@ alongside the PcB1v3 version ("scaffolds"),
 this resulted in a significantly more contiguous assembly both at the level of scaffolds/supercontigs and contigs ("broken").
 ![image](https://user-images.githubusercontent.com/3057078/131744710-e25b4ae3-f2ff-45fd-bd2d-b55891d2ecf5.png)
 
+The PcB1v3 genome assembly is more contiguous than the previous version, PcB1v2. But is it more complete? One way to answer this is to assess
+completeness of gene-space using [BUSCO](https://doi.org/10.1093/molbev/msab199).
+
+```
+$ for i in *.fna; do echo $i; python2 ~/busco3/scripts/run_BUSCO.py -i $i -o $i -l ~/busco3/lineages/fungi_odb9/ -m geno; done
+GCA_000411695.2_PcB1v2_genomic.fna
+INFO	****************** Start a BUSCO 3.0.2 analysis, current time: 06/11/2021 11:10:33 ******************
+INFO	Configuration loaded from /home/djs217/busco/scripts/../config/config.ini
+INFO	Init tools...
+INFO	Check dependencies...
+INFO	Check input file...
+INFO	To reproduce this run: python /home/djs217/busco3/scripts/run_BUSCO.py -i GCA_000411695.2_PcB1v2_genomic.fna -o GCA_000411695.2_PcB1v2_genomic.fna -l /home/djs217/busco3/lineages/fungi_odb9/ -m genome -c 1 -sp aspergillus_nidulans
+INFO	Mode is: genome
+INFO	The lineage dataset is: fungi_odb9 (eukaryota)
+INFO	Temp directory is ./tmp/
+INFO	****** Phase 1 of 2, initial predictions ******
+INFO	****** Step 1/3, current time: 06/11/2021 11:10:34 ******
+INFO	Create blast database...
+INFO	[makeblastdb]	Building a new DB, current time: 06/11/2021 11:10:39
+INFO	[makeblastdb]	New DB name:   /mnt/bio-surimi-data/projects-djs217/pochonia_chlamydosporia/pacbio-scaffolding/busco/tmp/GCA_000411695.2_PcB1v2_genomic.fna_103895628
+INFO	[makeblastdb]	New DB title:  GCA_000411695.2_PcB1v2_genomic.fna
+INFO	[makeblastdb]	Sequence type: Nucleotide
+INFO	[makeblastdb]	Keep MBits: T
+INFO	[makeblastdb]	Maximum file size: 1000000000B
+INFO	[makeblastdb]	Adding sequences from FASTA; added 956 sequences in 0.737781 seconds.
+INFO	[makeblastdb]	1 of 1 task(s) completed at 06/11/2021 11:10:40
+INFO	Running tblastn, writing output to /mnt/bio-surimi-data/projects-djs217/pochonia_chlamydosporia/pacbio-scaffolding/busco/run_GCA_000411695.2_PcB1v2_genomic.fna/blast_output/tblastn_GCA_000411695.2_PcB1v2_genomic.fna.tsv...
+INFO	[tblastn]	1 of 1 task(s) completed at 06/11/2021 11:11:14
+INFO	****** Step 2/3, current time: 06/11/2021 11:11:14 ******
+INFO	Maximum number of candidate contig per BUSCO limited to: 3
+INFO	Getting coordinates for candidate regions...
+INFO	Pre-Augustus scaffold extraction...
+INFO	Running Augustus prediction using aspergillus_nidulans as species:
+INFO	[augustus]	Please find all logs related to Augustus errors here: /mnt/bio-surimi-data/projects-djs217/pochonia_chlamydosporia/pacbio-scaffolding/busco/run_GCA_000411695.2_PcB1v2_genomic.fna/augustus_output/augustus.log
+
+…
+```
+
+
+
+![image](https://user-images.githubusercontent.com/3057078/131745640-d6390afa-dbb6-4694-b796-f65feead29d8.png)
 
 
 
