@@ -46,6 +46,12 @@ Fri Jun 11 00:01:50 2021: Finishing
 Scaffolded 956 contigs into 312 scaffolds
 ```
 
+As can be seen in this [Quast](https://doi.org/10.1093/bioinformatics/btt086) analysis of the PcB1v2 version ("GCA_000411695.2_PcB1v2_genomic") 
+alongside the PcB1v3 version ("scaffolds"),
+this resulted in a significantly more contiguous assembly both at the level of scaffolds/supercontigs and contigs ("broken").
+![image](https://user-images.githubusercontent.com/3057078/131744710-e25b4ae3-f2ff-45fd-bd2d-b55891d2ecf5.png)
+
+
 
 
 
