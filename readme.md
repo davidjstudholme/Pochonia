@@ -56,6 +56,7 @@ completeness of gene-space using [BUSCO](https://doi.org/10.1093/molbev/msab199)
 
 ```
 $ for i in *.fna; do echo $i; python2 ~/busco3/scripts/run_BUSCO.py -i $i -o $i -l ~/busco3/lineages/fungi_odb9/ -m geno; done
+
 GCA_000411695.2_PcB1v2_genomic.fna
 INFO	****************** Start a BUSCO 3.0.2 analysis, current time: 06/11/2021 11:10:33 ******************
 INFO	Configuration loaded from /home/djs217/busco/scripts/../config/config.ini
@@ -85,13 +86,13 @@ INFO	Getting coordinates for candidate regions...
 INFO	Pre-Augustus scaffold extraction...
 INFO	Running Augustus prediction using aspergillus_nidulans as species:
 INFO	[augustus]	Please find all logs related to Augustus errors here: /mnt/bio-surimi-data/projects-djs217/pochonia_chlamydosporia/pacbio-scaffolding/busco/run_GCA_000411695.2_PcB1v2_genomic.fna/augustus_output/augustus.log
-
 …
 ```
 
+So, was there any change in BUSCO completeness results between versions PcB1v2 and PcB1v3?
 
 
-![image](https://user-images.githubusercontent.com/3057078/131745640-d6390afa-dbb6-4694-b796-f65feead29d8.png)
+
 
 
 
