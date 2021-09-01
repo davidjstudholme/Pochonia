@@ -89,7 +89,14 @@ INFO	[augustus]	Please find all logs related to Augustus errors here: /mnt/bio-s
 …
 ```
 
-So, was there any change in BUSCO completeness results between versions PcB1v2 and PcB1v3?
+So, was there any change in BUSCO completeness results between versions PcB1v2 and PcB1v3? No; the results were identical for both assemblies:
+
+assembly | complete_single_copy	| complete_duplicated |	fragmented	| missing |	total
+-------  | -------------------  | ------------------- | ----------  | ------- | -----
+PcB1v2	 | 284                  |	2                   |           1 | 	3     |	290
+PcB1v3   |	284                 |	2                   |           1 | 	3     |	290
+
+
 
 
 
