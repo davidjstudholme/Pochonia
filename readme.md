@@ -1,4 +1,4 @@
-# What's this?
+# Assembly of the *Pochonia chlamydosporia* strain 123 genome sequenc
 
 Here we document the methods for assembling and analysing version 3 of the *Pochonia chlamydosporia* strain 123 genome sequence.
 
@@ -6,7 +6,7 @@ This genome sequence assembly has been deposited in GenBank here: https://www.nc
 
 This work is described in the following manuscript:
 
-Sambles, C., Suarez-Fernandez, M., Lopez-Moya, F., Lopez-Llorca, L. V., & Studholme, D. J. (2022). Chitosan induces differential transcript usage of chitosanase 3 encoding gene (csn3) in the biocontrol fungus Pochonia chlamydosporia 123. BMC genomics, 23(1), 101. https://doi.org/10.1186/s12864-021-08232-7.
+**Sambles, C., Suarez-Fernandez, M., Lopez-Moya, F., Lopez-Llorca, L. V., & Studholme, D. J. (2022)**. Chitosan induces differential transcript usage of chitosanase 3 encoding gene (csn3) in the biocontrol fungus Pochonia chlamydosporia 123. _BMC Genomics_, **23**(1), 101. https://doi.org/10.1186/s12864-021-08232-7.
 
 # Genome assembly of *Pochonia chlamydosporia* strain 123
 We previously generated the [PcB1v2 version draft genome assembly](https://www.ncbi.nlm.nih.gov/assembly/GCA_000411695.2) based only 
