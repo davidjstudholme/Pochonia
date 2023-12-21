@@ -6,7 +6,7 @@ This genome sequence assembly has been deposited in GenBank here: https://www.nc
 
 This work is described in the following manuscript:
 
-**Sambles, C., Suarez-Fernandez, M., Lopez-Moya, F., Lopez-Llorca, L. V., & Studholme, D. J. (2022)**. Chitosan induces differential transcript usage of chitosanase 3 encoding gene (csn3) in the biocontrol fungus Pochonia chlamydosporia 123. _BMC Genomics_, **23**(1), 101. https://doi.org/10.1186/s12864-021-08232-7.
+**Sambles, C., Suarez-Fernandez, M., Lopez-Moya, F., Lopez-Llorca, L. V., & Studholme, D. J. (2022)**. Chitosan induces differential transcript usage of chitosanase 3 encoding gene (csn3) in the biocontrol fungus Pochonia chlamydosporia 123. _BMC Genomics_, **23**, 101. https://doi.org/10.1186/s12864-021-08232-7.
 
 # Genome assembly of *Pochonia chlamydosporia* strain 123
 We previously generated the [PcB1v2 version draft genome assembly](https://www.ncbi.nlm.nih.gov/assembly/GCA_000411695.2) based only 
@@ -17,7 +17,7 @@ Scaffolding was performed by [SSPACE-LongRead](https://doi.org/10.1186/1471-2105
 
 The SSPACE-LongRead software is described in the following publication:
 
-Boetzer, M., & Pirovano, W. (2014). SSPACE-LongRead: scaffolding bacterial draft genomes using long read sequence information. *BMC Bioinformatics* **15**: 211. https://doi.org/10.1186/1471-2105-15-211. 
+**Boetzer, M., & Pirovano, W. (2014)**. SSPACE-LongRead: scaffolding bacterial draft genomes using long read sequence information. *BMC Bioinformatics* **15**, 211. https://doi.org/10.1186/1471-2105-15-211. 
 The link provided in the "Availability and requirements" section of the that paper is: http://www.baseclear.com/bioinformatics-tools/.
 Unfortunately, that link is no longer valid; it gives a 404 page-not-found error (as of 1st September 2021).
 
